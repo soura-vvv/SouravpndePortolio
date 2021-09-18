@@ -594,15 +594,17 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Music
 --------------------------------------------------------------*/
-.services .icon-box {
+.music .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
+  background-image:url("../img/youstilldo.png");
+  background-size:cover;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
 }
-.services .icon-box .icon {
+.music .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -615,11 +617,11 @@ section .container {
   margin-bottom: 20px;
   transform-style: preserve-3d;
 }
-.services .icon-box .icon i {
+.music .icon-box .icon i {
   color: #fff;
   font-size: 28px;
 }
-.services .icon-box .icon::before {
+.music .icon-box .icon::before {
   position: absolute;
   content: "";
   left: -8px;
@@ -631,33 +633,33 @@ section .container {
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
-.services .icon-box h4 {
+.music .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
-.services .icon-box h4 a {
+.music .icon-box h4 a {
   color: #fff;
 }
-.services .icon-box p {
+.music .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
-.services .icon-box:hover {
+.music .icon-box:hover {
   background: #18d26e;
   border-color: #18d26e;
 }
-.services .icon-box:hover .icon {
+.music .icon-box:hover .icon {
   background: #fff;
 }
-.services .icon-box:hover .icon i {
+.music .icon-box:hover .icon i {
   color: #18d26e;
 }
-.services .icon-box:hover .icon::before {
+.music .icon-box:hover .icon::before {
   background: #35e888;
 }
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
+.music .icon-box:hover h4 a, .music .icon-box:hover p {
   color: #fff;
 }
 
